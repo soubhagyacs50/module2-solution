@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-size: 175%;
+}
+section{
+    width: 31.96%;
+    margin: 10px;
+}
+#box1 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 30px;
+    padding-top:0%;
+}
+#box2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 30px;
+    padding-top:0%;
+}
+#box3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 30px;
+    padding-top:0%;
+}
+p{
+    font-size: 125%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: -30px;
+    padding: 20px;
+    background-color:burlywood;
+    width: 60% ;
+    border-left: 1px solid black; border-bottom: 1px solid black;
+}
+#box2 p
+{
+    background-color:brown;
+    color: antiquewhite;
+}
+#box3 p
+{
+    background-color: lightcoral;
+}
+@media (min-width:992px) {
+    section
+    {
+        width: 31.28%;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px) {
+    #box1,#box2{
+        width: 47.33%;
+    }
+    #box3
+    {
+        width:auto;
+    }
+}
+@media (max-width:767px) {
+    section{
+        width: auto;
+    }
+}
